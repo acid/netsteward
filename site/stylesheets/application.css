@@ -1,0 +1,105 @@
+/* *Template name: Bright Pixel
+ * *Template URI: http://templates.arcsin.se/bright-pixel-website-template/
+ * *Release date: 2006-05-07
+ * *Description: A smooth, monochrome, lightweight design.
+ * *Author: Viktor Persson
+ * *Author URI: http://arcsin.se/
+ * *
+ * *This template is licensed under a Creative Commons Attribution 2.5 License:
+ * *http://templates.arcsin.se/license/ */
+/* standard elements */
+a {
+  color: black;
+  text-decoration: none; }
+
+body {
+  background: #cccccc url(/images/bg.gif) repeat-y fixed bottom center;
+  color: #333333;
+  margin: 20px 0;
+  text-align: center;
+  font: normal 0.6em sans-serif, Arial; }
+
+.gfx a {
+  background: #f5f5f5 url(/images/bright_pixel.gif) no-repeat;
+  display: block;
+  height: 240px; }
+
+/* header */
+.header {
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+  font: bold 2.6em Arial;
+  line-height: 3em; }
+
+/* main */
+.main {
+  background: white;
+  border: 3px double #eeeeee;
+  border-color: #e4e4e4 #cfcfcf #cccccc #cfcfcf;
+  margin: 20px auto 4px auto;
+  text-align: left;
+  width: 620px; }
+
+.container {
+  margin: 10px; }
+
+/* menu */
+.menu a {
+  background: #eeeeee;
+  border-right: 1px solid #cecece;
+  border-top: 1px solid #e5e5e5;
+  color: #888888;
+  float: left;
+  padding-top: 4px;
+  width: 149px;
+  height: 36px; }
+  .menu a span {
+    padding-left: 6px; }
+  .menu a:hover {
+    background: #eeeeee url(/images/bgmenu.gif) repeat-x;
+    color: #555555; }
+  .menu a#last {
+    width: 150px;
+    border-right: none; }
+
+/* content */
+.content {
+  background: #f5f5f5;
+  border-top: 1px solid #e5e5e5;
+  clear: both; }
+  .content h1 {
+    margin: 0;
+    font: bold 1.1em sans-serif, Arial;
+    color: #666666; }
+  .content p {
+    margin: 3px 0 6px;
+    color: #666666; }
+
+.item {
+  background: #fcfcfc url(/images/bgitem.gif) repeat-x;
+  padding: 10px; }
+
+/* footer */
+.footer {
+  padding: 5px;
+  background: #f5f5f5;
+  color: #666666; }
+  .footer .left {
+    padding: 0 12px; }
+  .footer .right {
+    padding: 0 12px;
+    color: #aaaaaa; }
+    .footer .right a {
+      color: #aaaaaa; }
+      .footer .right a:hover {
+        color: #444444; }
+
+/* floats */
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clearer {
+  clear: both; }
