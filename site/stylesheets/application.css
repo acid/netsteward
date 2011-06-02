@@ -8,42 +8,55 @@
  *This template is licensed under a Creative Commons Attribution 2.5 License:
  *http://templates.arcsin.se/license/ */
 /* standard elements */
+/* line 14 */
 a {
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 18 */
 body {
   background: #cccccc url(/images/bg.gif) repeat-y fixed bottom center;
   color: #333333;
   margin: 20px 0;
   text-align: center;
-  font: normal 0.9em sans-serif, Verdana; }
+  font: normal 0.9em sans-serif, Verdana;
+}
 
+/* line 25 */
 .gfx a {
   background: #f5f5f5 url(/images/bright_pixel.gif) no-repeat;
   display: block;
-  height: 240px; }
+  height: 240px;
+}
 
 /* header */
+/* line 32 */
 .header {
   background: white;
   border-bottom: 1px solid #e5e5e5;
   font: bold 2.6em Arial;
-  line-height: 3em; }
+  line-height: 3em;
+}
 
 /* main */
+/* line 40 */
 .main {
   background: white;
   border: 3px double #eeeeee;
   border-color: #e4e4e4 #cfcfcf #cccccc #cfcfcf;
   margin: 20px auto 4px auto;
   text-align: left;
-  width: 620px; }
+  width: 620px;
+}
 
+/* line 48 */
 .container {
-  margin: 10px; }
+  margin: 10px;
+}
 
 /* menu */
+/* line 53 */
 .menu a {
   background: #eeeeee;
   border-right: 1px solid #cecece;
@@ -52,54 +65,85 @@ body {
   float: left;
   padding-top: 4px;
   width: 149px;
-  height: 36px; }
-  .menu a span {
-    padding-left: 6px; }
-  .menu a:hover {
-    background: #eeeeee url(/images/bgmenu.gif) repeat-x;
-    color: #555555; }
-  .menu a#last {
-    width: 150px;
-    border-right: none; }
+  height: 36px;
+}
+/* line 62 */
+.menu a span {
+  padding-left: 6px;
+}
+/* line 64 */
+.menu a:hover {
+  background: #eeeeee url(/images/bgmenu.gif) repeat-x;
+  color: #555555;
+}
+/* line 67 */
+.menu a#last {
+  width: 150px;
+  border-right: none;
+}
 
 /* content */
+/* line 73 */
 .content {
   background: #f5f5f5;
   border-top: 1px solid #e5e5e5;
-  clear: both; }
-  .content h1 {
-    margin: 0;
-    font: bold 1.2em sans-serif, Verdana;
-    color: #666666; }
-  .content p {
-    margin: 3px 0 6px;
-    color: #666666; }
+  clear: both;
+}
+/* line 77 */
+.content h1 {
+  margin: 0;
+  font: bold 1.2em sans-serif, Verdana;
+  color: #666666;
+}
+/* line 81 */
+.content p {
+  margin: 3px 0 6px;
+  color: #666666;
+}
 
+/* line 85 */
 .item {
   background: #fcfcfc url(/images/bgitem.gif) repeat-x;
-  padding: 10px; }
+  padding: 10px;
+}
 
 /* footer */
+/* line 91 */
 .footer {
   padding: 5px;
   background: #f5f5f5;
-  color: #666666; }
-  .footer .left {
-    padding: 0 12px; }
-  .footer .right {
-    padding: 0 12px;
-    color: #aaaaaa; }
-    .footer .right a {
-      color: #aaaaaa; }
-      .footer .right a:hover {
-        color: #444444; }
+  color: #666666;
+}
+/* line 95 */
+.footer .left {
+  padding: 0 12px;
+}
+/* line 97 */
+.footer .right {
+  padding: 0 12px;
+  color: #aaaaaa;
+}
+/* line 100 */
+.footer .right a {
+  color: #aaaaaa;
+}
+/* line 102 */
+.footer .right a:hover {
+  color: #444444;
+}
 
 /* floats */
+/* line 107 */
 .left {
-  float: left; }
+  float: left;
+}
 
+/* line 110 */
 .right {
-  float: right; }
+  float: right;
+}
 
+/* line 113 */
 .clearer {
-  clear: both; }
+  clear: both;
+}
