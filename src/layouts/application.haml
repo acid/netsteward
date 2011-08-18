@@ -13,19 +13,20 @@
           %a{:href => "index.html"}
             %span
         .menu
-          %a{:href => "http://github.com/acid"}
-            %span github
-          %a{:href => "http://de.linkedin.com/in/netsteward"}
-            %span linked.in
-          %a{:href => "https://www.xing.com/profile/Daniel_Schweighoefer"}
-            %span xing
-          %a#last{:href => "http://acidblog.de"}
-            %span blog (german)
+          %a{:href => "index.html"}
+            %span home
+          %a{:href => "skills.html"}
+            %span skills
+          %a{:href => "cv.html"}
+            %span cv
+          %a#last{:href => "contact.html"}
+            %span contact
+
         .content
           = yield
         .footer
           %span.left
-            \&copy; 2010
+            \&copy; 2011
             - succeed "." do
               %a{:href => "index.html"} Netsteward.net
             Valid
