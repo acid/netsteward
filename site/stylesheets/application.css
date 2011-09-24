@@ -17,10 +17,10 @@ a {
 /* line 18 */
 body {
   background: #cccccc url(/images/bg.gif) repeat-y fixed bottom center;
-  color: #333333;
+  color: #666666;
   margin: 20px 0;
   text-align: center;
-  font: normal 0.9em sans-serif, Verdana;
+  font: normal 0.8em sans-serif, Verdana;
 }
 
 /* line 25 */
@@ -96,54 +96,61 @@ body {
   color: #666666;
 }
 /* line 81 */
+.content h2 {
+  margin: 0;
+  font: bold 1em sans-serif, Verdana;
+  color: #666666;
+}
+/* line 85 */
 .content p {
   margin: 3px 0 6px;
   color: #666666;
+  font: normal 0.8em sans-serif, Verdana;
 }
 
-/* line 85 */
+/* line 90 */
 .item {
   background: #fcfcfc url(/images/bgitem.gif) repeat-x;
   padding: 10px;
 }
 
 /* footer */
-/* line 91 */
+/* line 96 */
 .footer {
   padding: 5px;
   background: #f5f5f5;
   color: #666666;
 }
-/* line 95 */
+/* line 100 */
 .footer .left {
   padding: 0 12px;
 }
-/* line 97 */
+/* line 102 */
 .footer .right {
   padding: 0 12px;
   color: #aaaaaa;
 }
-/* line 100 */
+/* line 105 */
 .footer .right a {
   color: #aaaaaa;
 }
-/* line 102 */
+/* line 107 */
 .footer .right a:hover {
   color: #444444;
 }
 
 /* floats */
-/* line 107 */
+/* line 112 */
 .left {
   float: left;
 }
 
-/* line 110 */
+/* line 115 */
 .right {
   float: right;
 }
 
-/* line 113 */
+/* line 118 */
 .clearer {
   clear: both;
 }
