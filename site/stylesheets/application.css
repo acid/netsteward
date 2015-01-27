@@ -20,7 +20,7 @@ body {
   color: #666666;
   margin: 20px 0;
   text-align: center;
-  font: normal 0.8em sans-serif, Verdana;
+  font: normal 1em sans-serif, Verdana;
 }
 
 /* line 25 */
@@ -103,9 +103,9 @@ body {
 }
 /* line 85 */
 .content p {
-  margin: 3px 0 6px;
+  margin: 10px 0 6px;
   color: #666666;
-  font: normal 0.8em sans-serif, Verdana;
+  font: normal 0.9em sans-serif, Verdana;
 }
 
 /* line 90 */
